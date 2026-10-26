@@ -64,8 +64,7 @@ def evaluar(cadena):
 
     El recorrido empieza en q0 y termina en el primer q7, como en la Tabla 18 del
     Diseño. rechazo es (posición 1-based, símbolo) o None si la cadena se aceptó.
-    Si la cadena se agota en un estado no final, rechazo es (len(cadena) + 1, None):
-    el problema no es un símbolo sino el fin de la cadena.
+    Si la cadena se agota en un estado no final, rechazo es (len(cadena) + 1, None).
     """
     estado = ESTADO_INICIAL
     recorrido = [estado]

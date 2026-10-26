@@ -72,7 +72,6 @@ class Red:
         self._actualizar_aristas()
 
     def _actualizar_aristas(self):
-        # Una arista solo está activa si ninguno de sus extremos está Bloqueado.
         for arista in self.aristas:
             arista.activa = (
                 self.nodos[arista.origen].estado != BLOQUEADO

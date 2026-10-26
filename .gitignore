@@ -8,6 +8,11 @@ __pycache__/
 build/
 dist/
 
+# Configuración local del asistente y auditorías
+.claude/
+CLAUDE.md
+anti-slop/
+
 # Sistema y editor
 .vscode/
 Thumbs.db
