@@ -1,0 +1,14 @@
+# Entorno y caché de Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# PyInstaller
+build/
+dist/
+
+# Sistema y editor
+.vscode/
+Thumbs.db
+desktop.ini
