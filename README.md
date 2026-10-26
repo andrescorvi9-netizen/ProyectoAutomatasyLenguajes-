@@ -10,6 +10,16 @@ SoftCast simula una red de 9 nodos (4 PC, 3 IoT, un servidor local y uno global)
 
 La interfaz muestra el grafo, el nodo seleccionado, el autómata y una tabla con todos los nodos en una sola ventana.
 
+## Descargar el ejecutable
+
+Para usar SoftCast en Windows sin instalar Python:
+
+1. Abra la página de [Releases](https://github.com/andrescorvi9-netizen/ProyectoAutomatasyLenguajes-/releases) y descargue `SoftCast_v1.0_Windows.zip` de la versión más reciente.
+2. Descomprima el ZIP (clic derecho > Extraer todo). Se crea la carpeta `SoftCast`.
+3. Abra `SoftCast.exe` dentro de esa carpeta. La primera vez puede tardar unos segundos en mostrar la ventana.
+
+Si va a llevar el programa a otro equipo, copie la carpeta `SoftCast` completa. El `.exe` solo no funciona: necesita la subcarpeta `_internal`, que contiene Python, las librerías y los pesos de la GCN.
+
 ## Requisitos
 
 - Python 3.14

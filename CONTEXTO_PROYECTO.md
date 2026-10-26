@@ -134,3 +134,23 @@ por clase. Guardar la curva de pérdida como imagen para el documento.
 1) red.py + generador.py → 2) automata.py + pruebas → 3) enrutador.py + pruebas →
 4) gnn.py + entrenamiento + métricas → 5) interfaz.py → 6) main.py y ejecutable
 con PyInstaller. Detente y espera aprobación al final de cada paso.
+
+## Registro de cambios
+
+Cada cambio pedido por el docente se registra aquí con su fecha, qué cambia y qué
+módulos afecta.
+
+Procedimiento para cada cambio:
+- Primero se propone el plan: módulos afectados, pruebas nuevas o ajustadas, y si hay
+  que reentrenar la GCN o rehacer las capturas. No se programa hasta que el equipo lo
+  apruebe.
+- Cada cambio grande va en una rama propia (por ejemplo, cambio-docente-1) y solo se
+  une a main con python -m pytest pasando.
+- La versión v1.0 no se borra ni se sobrescribe. Las siguientes entregas serán v1.1,
+  v2.0, etc., cada una con su etiqueta y su Release.
+
+### v1.0 (2026-10-26)
+Alcance: Etapa 3 entregada. Prototipo completo según este documento: red, generador,
+autómata, enrutador, GCN (87,41 % de exactitud en prueba), interfaz, ejecutable para
+Windows y 60 pruebas con pytest.
+Módulos: todos (softcast/ y pruebas/).
