@@ -149,6 +149,15 @@ Procedimiento para cada cambio:
 - La versión v1.0 no se borra ni se sobrescribe. Las siguientes entregas serán v1.1,
   v2.0, etc., cada una con su etiqueta y su Release.
 
+### Validación Etapa 4 (2026-11-05)
+Alcance: experimentos de validación sobre los 30 escenarios de prueba (bloqueo de SRV-L,
+PC2, SRV-G y PC2+SRV-L; SRV-L y PC4 anómalos; detección por nodo; cadena sadkf en los
+1080 pares), medición de gnn.clasificar() (0,553 ms en promedio) y capturas
+7_bloqueo_srvl.png y 8_tres_retardos.png.
+Módulos: ninguno de softcast/ (el prototipo sigue siendo v1.0). Archivos nuevos:
+validacion/experimentos.py, validacion/resultados.json, resultados/capturas/7 y 8.
+Sin nueva etiqueta por ahora; si se marca la entrega de la Etapa 4 será v1.1.
+
 ### v1.0 (2026-10-26)
 Alcance: Etapa 3 entregada. Prototipo completo según este documento: red, generador,
 autómata, enrutador, GCN (87,41 % de exactitud en prueba), interfaz, ejecutable para
