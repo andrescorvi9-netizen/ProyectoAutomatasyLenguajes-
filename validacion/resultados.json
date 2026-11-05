@@ -1,0 +1,763 @@
+{
+ "base": {
+  "exactitud": [
+   0.8740740740740741,
+   236,
+   270
+  ],
+  "estados_reales": {
+   "Normal": 189,
+   "Anómalo": 53,
+   "Bloqueado": 28
+  },
+  "rutas": {
+   "pares": 1080,
+   "sin_ruta": 212,
+   "costo_medio": 126.67995391705077,
+   "saltos_medio": 1.433179723502304
+  },
+  "automata": {
+   "aceptadas": 865,
+   "rechazadas": 215,
+   "por_numero_de_r": {
+    "0": [
+     510,
+     0
+    ],
+    "b": [
+     0,
+     212
+    ],
+    "1": [
+     295,
+     0
+    ],
+    "2": [
+     60,
+     0
+    ],
+    "3": [
+     0,
+     3
+    ]
+   }
+  },
+  "metricas": {
+   "exactitud": 0.8741,
+   "matriz_confusion": [
+    [
+     161,
+     28,
+     0
+    ],
+    [
+     6,
+     47,
+     0
+    ],
+    [
+     0,
+     0,
+     28
+    ]
+   ],
+   "por_clase": {
+    "Normal": {
+     "precision": 0.9641,
+     "recall": 0.8519,
+     "f1": 0.9045,
+     "soporte": 189
+    },
+    "Anómalo": {
+     "precision": 0.6267,
+     "recall": 0.8868,
+     "f1": 0.7344,
+     "soporte": 53
+    },
+    "Bloqueado": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "soporte": 28
+    }
+   }
+  }
+ },
+ "bloqueo_srvl": {
+  "cambios": [
+   [
+    "SRV-L",
+    "Bloqueado"
+   ]
+  ],
+  "ya_estaban": {
+   "SRV-L": 2
+  },
+  "exactitud_total": [
+   0.9296296296296296,
+   251,
+   270
+  ],
+  "exactitud_resto": [
+   0.9208333333333333,
+   221,
+   240
+  ],
+  "exactitud_resto_base": [
+   0.8708333333333333,
+   209,
+   240
+  ],
+  "deteccion": {
+   "SRV-L": 30
+  },
+  "predicciones_cambiadas_resto": 12,
+  "rutas": {
+   "pares": 1080,
+   "sin_ruta": 450,
+   "costo_medio": 166.35825396825413,
+   "saltos_medio": 1.6047619047619048
+  },
+  "automata": {
+   "aceptadas": 624,
+   "rechazadas": 456,
+   "por_numero_de_r": {
+    "0": [
+     329,
+     0
+    ],
+    "b": [
+     0,
+     450
+    ],
+    "1": [
+     234,
+     0
+    ],
+    "2": [
+     61,
+     0
+    ],
+    "3": [
+     0,
+     6
+    ]
+   }
+  }
+ },
+ "bloqueo_pc2": {
+  "cambios": [
+   [
+    "PC2",
+    "Bloqueado"
+   ]
+  ],
+  "ya_estaban": {
+   "PC2": 1
+  },
+  "exactitud_total": [
+   0.9185185185185185,
+   248,
+   270
+  ],
+  "exactitud_resto": [
+   0.9083333333333333,
+   218,
+   240
+  ],
+  "exactitud_resto_base": [
+   0.875,
+   210,
+   240
+  ],
+  "deteccion": {
+   "PC2": 30
+  },
+  "predicciones_cambiadas_resto": 10,
+  "rutas": {
+   "pares": 1080,
+   "sin_ruta": 428,
+   "costo_medio": 133.39815950920243,
+   "saltos_medio": 1.4631901840490797
+  },
+  "automata": {
+   "aceptadas": 649,
+   "rechazadas": 431,
+   "por_numero_de_r": {
+    "b": [
+     0,
+     428
+    ],
+    "0": [
+     369,
+     0
+    ],
+    "1": [
+     227,
+     0
+    ],
+    "2": [
+     53,
+     0
+    ],
+    "3": [
+     0,
+     3
+    ]
+   }
+  }
+ },
+ "bloqueo_srvg": {
+  "cambios": [
+   [
+    "SRV-G",
+    "Bloqueado"
+   ]
+  ],
+  "ya_estaban": {
+   "SRV-G": 5
+  },
+  "exactitud_total": [
+   0.9185185185185185,
+   248,
+   270
+  ],
+  "exactitud_resto": [
+   0.9083333333333333,
+   218,
+   240
+  ],
+  "exactitud_resto_base": [
+   0.8958333333333334,
+   215,
+   240
+  ],
+  "deteccion": {
+   "SRV-G": 30
+  },
+  "predicciones_cambiadas_resto": 5,
+  "rutas": {
+   "pares": 1080,
+   "sin_ruta": 392,
+   "costo_medio": 134.06875,
+   "saltos_medio": 1.4491279069767442
+  },
+  "automata": {
+   "aceptadas": 685,
+   "rechazadas": 395,
+   "por_numero_de_r": {
+    "0": [
+     401,
+     0
+    ],
+    "b": [
+     0,
+     392
+    ],
+    "1": [
+     230,
+     0
+    ],
+    "2": [
+     54,
+     0
+    ],
+    "3": [
+     0,
+     3
+    ]
+   }
+  }
+ },
+ "bloqueo_pc2_srvl": {
+  "cambios": [
+   [
+    "PC2",
+    "Bloqueado"
+   ],
+   [
+    "SRV-L",
+    "Bloqueado"
+   ]
+  ],
+  "ya_estaban": {
+   "PC2": 1,
+   "SRV-L": 2
+  },
+  "exactitud_total": [
+   0.9740740740740741,
+   263,
+   270
+  ],
+  "exactitud_resto": [
+   0.9666666666666667,
+   203,
+   210
+  ],
+  "exactitud_resto_base": [
+   0.8714285714285714,
+   183,
+   210
+  ],
+  "deteccion": {
+   "PC2": 30,
+   "SRV-L": 30
+  },
+  "predicciones_cambiadas_resto": 20,
+  "rutas": {
+   "pares": 1080,
+   "sin_ruta": 746,
+   "costo_medio": 161.8562874251497,
+   "saltos_medio": 1.5059880239520957
+  },
+  "automata": {
+   "aceptadas": 329,
+   "rechazadas": 751,
+   "por_numero_de_r": {
+    "b": [
+     0,
+     746
+    ],
+    "0": [
+     164,
+     0
+    ],
+    "1": [
+     131,
+     0
+    ],
+    "2": [
+     34,
+     0
+    ],
+    "3": [
+     0,
+     5
+    ]
+   }
+  }
+ },
+ "anomalo_srvl": {
+  "cambios": [
+   [
+    "SRV-L",
+    "Anómalo"
+   ]
+  ],
+  "ya_estaban": {
+   "SRV-L": 6
+  },
+  "exactitud_total": [
+   0.762962962962963,
+   206,
+   270
+  ],
+  "exactitud_resto": [
+   0.7625,
+   183,
+   240
+  ],
+  "exactitud_resto_base": [
+   0.8708333333333333,
+   209,
+   240
+  ],
+  "deteccion": {
+   "SRV-L": 23
+  },
+  "predicciones_cambiadas_resto": 38,
+  "rutas": {
+   "pares": 1080,
+   "sin_ruta": 197,
+   "costo_medio": 195.1612684031713,
+   "saltos_medio": 1.4518686296715742
+  },
+  "automata": {
+   "aceptadas": 877,
+   "rechazadas": 203,
+   "por_numero_de_r": {
+    "0": [
+     329,
+     0
+    ],
+    "b": [
+     0,
+     197
+    ],
+    "1": [
+     436,
+     0
+    ],
+    "2": [
+     112,
+     0
+    ],
+    "3": [
+     0,
+     6
+    ]
+   }
+  }
+ },
+ "anomalo_pc4": {
+  "cambios": [
+   [
+    "PC4",
+    "Anómalo"
+   ]
+  ],
+  "ya_estaban": {
+   "PC4": 6
+  },
+  "exactitud_total": [
+   0.825925925925926,
+   223,
+   270
+  ],
+  "exactitud_resto": [
+   0.8166666666666667,
+   196,
+   240
+  ],
+  "exactitud_resto_base": [
+   0.8791666666666667,
+   211,
+   240
+  ],
+  "deteccion": {
+   "PC4": 27
+  },
+  "predicciones_cambiadas_resto": 27,
+  "rutas": {
+   "pares": 1080,
+   "sin_ruta": 192,
+   "costo_medio": 148.85563063063063,
+   "saltos_medio": 1.4268018018018018
+  },
+  "automata": {
+   "aceptadas": 882,
+   "rechazadas": 198,
+   "por_numero_de_r": {
+    "0": [
+     387,
+     0
+    ],
+    "b": [
+     0,
+     192
+    ],
+    "1": [
+     390,
+     0
+    ],
+    "2": [
+     105,
+     0
+    ],
+    "3": [
+     0,
+     6
+    ]
+   }
+  }
+ },
+ "inyeccion_por_nodo": {
+  "PC1": {
+   "Anómalo": 29,
+   "Bloqueado": 30,
+   "Normal": 26
+  },
+  "PC2": {
+   "Anómalo": 27,
+   "Bloqueado": 30,
+   "Normal": 25
+  },
+  "PC3": {
+   "Anómalo": 24,
+   "Bloqueado": 30,
+   "Normal": 23
+  },
+  "PC4": {
+   "Anómalo": 25,
+   "Bloqueado": 30,
+   "Normal": 22
+  },
+  "IoT1": {
+   "Anómalo": 28,
+   "Bloqueado": 30,
+   "Normal": 29
+  },
+  "IoT2": {
+   "Anómalo": 29,
+   "Bloqueado": 30,
+   "Normal": 28
+  },
+  "IoT3": {
+   "Anómalo": 30,
+   "Bloqueado": 30,
+   "Normal": 28
+  },
+  "SRV-L": {
+   "Anómalo": 22,
+   "Bloqueado": 30,
+   "Normal": 20
+  },
+  "SRV-G": {
+   "Anómalo": 24,
+   "Bloqueado": 30,
+   "Normal": 22
+  }
+ },
+ "semilla_1019": {
+  "estados": {
+   "PC1": "Normal",
+   "PC2": "Bloqueado",
+   "PC3": "Normal",
+   "PC4": "Normal",
+   "IoT1": "Normal",
+   "IoT2": "Anómalo",
+   "IoT3": "Normal",
+   "SRV-L": "Anómalo",
+   "SRV-G": "Normal"
+  },
+  "IoT1->IoT3 sadkf": {
+   "ruta": [
+    "IoT1",
+    "SRV-L",
+    "IoT3"
+   ],
+   "costo": 214.3,
+   "evaluada": "sadrkf",
+   "aceptada": true,
+   "recorrido": [
+    "q0",
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q2",
+    "q6"
+   ],
+   "rechazo": null
+  },
+  "IoT1->IoT3 saddkf": {
+   "ruta": [
+    "IoT1",
+    "SRV-L",
+    "IoT3"
+   ],
+   "costo": 214.3,
+   "evaluada": "sadrdrkf",
+   "aceptada": false,
+   "recorrido": [
+    "q0",
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q7"
+   ],
+   "rechazo": [
+    5,
+    "d"
+   ]
+  },
+  "IoT1->IoT3 sadkdkf": {
+   "ruta": [
+    "IoT1",
+    "SRV-L",
+    "IoT3"
+   ],
+   "costo": 214.3,
+   "evaluada": "sadrkdrkf",
+   "aceptada": true,
+   "recorrido": [
+    "q0",
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q2",
+    "q3",
+    "q4",
+    "q2",
+    "q6"
+   ],
+   "rechazo": null
+  },
+  "IoT2->IoT3 sadkf": {
+   "ruta": [
+    "IoT2",
+    "PC3",
+    "PC4",
+    "IoT3"
+   ],
+   "costo": 72.1,
+   "evaluada": "sadrkf",
+   "aceptada": true,
+   "recorrido": [
+    "q0",
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q2",
+    "q6"
+   ],
+   "rechazo": null
+  },
+  "IoT2->IoT3 saddkf": {
+   "ruta": [
+    "IoT2",
+    "PC3",
+    "PC4",
+    "IoT3"
+   ],
+   "costo": 72.1,
+   "evaluada": "sadrdrkf",
+   "aceptada": false,
+   "recorrido": [
+    "q0",
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q7"
+   ],
+   "rechazo": [
+    5,
+    "d"
+   ]
+  },
+  "IoT2->IoT3 sadkdkf": {
+   "ruta": [
+    "IoT2",
+    "PC3",
+    "PC4",
+    "IoT3"
+   ],
+   "costo": 72.1,
+   "evaluada": "sadrkdrkf",
+   "aceptada": true,
+   "recorrido": [
+    "q0",
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q2",
+    "q3",
+    "q4",
+    "q2",
+    "q6"
+   ],
+   "rechazo": null
+  },
+  "PC1->IoT3 sadkf": {
+   "ruta": [
+    "PC1",
+    "PC4",
+    "IoT3"
+   ],
+   "costo": 45.8,
+   "evaluada": "sadkf",
+   "aceptada": true,
+   "recorrido": [
+    "q0",
+    "q1",
+    "q2",
+    "q3",
+    "q2",
+    "q6"
+   ],
+   "rechazo": null
+  },
+  "PC1->IoT3 saddkf": {
+   "ruta": [
+    "PC1",
+    "PC4",
+    "IoT3"
+   ],
+   "costo": 45.8,
+   "evaluada": "saddkf",
+   "aceptada": false,
+   "recorrido": [
+    "q0",
+    "q1",
+    "q2",
+    "q3",
+    "q7"
+   ],
+   "rechazo": [
+    4,
+    "d"
+   ]
+  },
+  "PC1->IoT3 sadkdkf": {
+   "ruta": [
+    "PC1",
+    "PC4",
+    "IoT3"
+   ],
+   "costo": 45.8,
+   "evaluada": "sadkdkf",
+   "aceptada": true,
+   "recorrido": [
+    "q0",
+    "q1",
+    "q2",
+    "q3",
+    "q2",
+    "q3",
+    "q2",
+    "q6"
+   ],
+   "rechazo": null
+  },
+  "PC2->PC4 sadkf": {
+   "ruta": null,
+   "costo": null,
+   "evaluada": "sbadkf",
+   "aceptada": false,
+   "recorrido": [
+    "q0",
+    "q1",
+    "q7"
+   ],
+   "rechazo": [
+    2,
+    "b"
+   ]
+  },
+  "PC2->PC4 saddkf": {
+   "ruta": null,
+   "costo": null,
+   "evaluada": "sbaddkf",
+   "aceptada": false,
+   "recorrido": [
+    "q0",
+    "q1",
+    "q7"
+   ],
+   "rechazo": [
+    2,
+    "b"
+   ]
+  },
+  "PC2->PC4 sadkdkf": {
+   "ruta": null,
+   "costo": null,
+   "evaluada": "sbadkdkf",
+   "aceptada": false,
+   "recorrido": [
+    "q0",
+    "q1",
+    "q7"
+   ],
+   "rechazo": [
+    2,
+    "b"
+   ]
+  }
+ }
+}
